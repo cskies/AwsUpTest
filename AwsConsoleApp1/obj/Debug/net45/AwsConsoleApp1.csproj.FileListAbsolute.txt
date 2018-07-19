@@ -1,0 +1,14 @@
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AwsConsoleApp1.exe.config
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AwsConsoleApp1.exe
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AwsConsoleApp1.pdb
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AWSSDK.Core.dll
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AWSSDK.EC2.dll
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AWSSDK.S3.dll
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\bin\Debug\net45\AWSSDK.SimpleDB.dll
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.csprojAssemblyReference.cache
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.AssemblyInfo.cs
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.csproj.CopyComplete
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.exe
+C:\Users\conrado.moura\source\repos\AwsConsoleApp1\AwsConsoleApp1\obj\Debug\net45\AwsConsoleApp1.pdb

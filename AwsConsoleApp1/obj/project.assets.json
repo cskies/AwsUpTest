@@ -1,0 +1,306 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "AWSSDK.Core/3.3.17": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.EC2/3.3.19": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "AWSSDK.SimpleDB/3.3.0.20": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.SimpleDB.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.SimpleDB.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5/win7-x86": {
+      "AWSSDK.Core/3.3.17": {
+        "type": "package",
+        "compile": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.EC2/3.3.19": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.EC2.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.3.9": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.S3.dll": {}
+        }
+      },
+      "AWSSDK.SimpleDB/3.3.0.20": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.17, 3.4.0)"
+        },
+        "compile": {
+          "lib/net45/AWSSDK.SimpleDB.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AWSSDK.SimpleDB.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.3.17": {
+      "sha512": "NTE47l/BVjbelMxYKCAMaPM+OsnDY3t5nTFXYHEJeV+EFvSHsFNLCt2pbu4YBKWRhgvYmGCJzykdngkfwgjeog==",
+      "type": "package",
+      "path": "awssdk.core/3.3.17",
+      "files": [
+        "awssdk.core.3.3.17.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.EC2/3.3.19": {
+      "sha512": "o+0rZWl88OgjAxvH1seWZDXsKzZLSfYoJ0r1Jh4a0byUxK2IwPAKl61yx28gYpHnoB0+sibUQyyFMaWFNQGnKA==",
+      "type": "package",
+      "path": "awssdk.ec2/3.3.19",
+      "files": [
+        "analyzers/dotnet/cs/AWSSDK.EC2.CodeAnalysis.dll",
+        "awssdk.ec2.3.3.19.nupkg.sha512",
+        "awssdk.ec2.nuspec",
+        "lib/MonoAndroid10/AWSSDK.EC2.XML",
+        "lib/MonoAndroid10/AWSSDK.EC2.dll",
+        "lib/MonoTouch10/AWSSDK.EC2.XML",
+        "lib/MonoTouch10/AWSSDK.EC2.dll",
+        "lib/MonoTouch10/AWSSDK.EC2.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.EC2.XML",
+        "lib/Xamarin.iOS10/AWSSDK.EC2.dll",
+        "lib/net35/AWSSDK.EC2.dll",
+        "lib/net35/AWSSDK.EC2.pdb",
+        "lib/net35/AWSSDK.EC2.xml",
+        "lib/net45/AWSSDK.EC2.dll",
+        "lib/net45/AWSSDK.EC2.pdb",
+        "lib/net45/AWSSDK.EC2.xml",
+        "lib/netstandard1.3/AWSSDK.EC2.dll",
+        "lib/netstandard1.3/AWSSDK.EC2.pdb",
+        "lib/netstandard1.3/AWSSDK.EC2.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.EC2.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.3.9": {
+      "sha512": "thi09U9g3V6BM31pe/WjjD1qELF/vLWFNzBTcSe/XaXX0rTVvF/ZnXUmi/jPhg3dLnpEsnJ72fuYOWhY8tbaQg==",
+      "type": "package",
+      "path": "awssdk.s3/3.3.9",
+      "files": [
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.3.9.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/MonoAndroid10/AWSSDK.S3.XML",
+        "lib/MonoAndroid10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.XML",
+        "lib/MonoTouch10/AWSSDK.S3.dll",
+        "lib/MonoTouch10/AWSSDK.S3.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.S3.XML",
+        "lib/Xamarin.iOS10/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.S3.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SimpleDB/3.3.0.20": {
+      "sha512": "8YaEDJcfLqRHCCD+prKRlsWgxeG/sMk/xdEeAYsOncbnXYiOhEsJ4hYRxgHf4LSGN1DP+15kSpZ7iN3zQmlT/w==",
+      "type": "package",
+      "path": "awssdk.simpledb/3.3.0.20",
+      "files": [
+        "analyzers/dotnet/cs/AWSSDK.SimpleDB.CodeAnalysis.dll",
+        "awssdk.simpledb.3.3.0.20.nupkg.sha512",
+        "awssdk.simpledb.nuspec",
+        "lib/MonoAndroid10/AWSSDK.SimpleDB.XML",
+        "lib/MonoAndroid10/AWSSDK.SimpleDB.dll",
+        "lib/MonoTouch10/AWSSDK.SimpleDB.XML",
+        "lib/MonoTouch10/AWSSDK.SimpleDB.dll",
+        "lib/MonoTouch10/AWSSDK.SimpleDB.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.SimpleDB.XML",
+        "lib/Xamarin.iOS10/AWSSDK.SimpleDB.dll",
+        "lib/net35/AWSSDK.SimpleDB.dll",
+        "lib/net35/AWSSDK.SimpleDB.pdb",
+        "lib/net35/AWSSDK.SimpleDB.xml",
+        "lib/net45/AWSSDK.SimpleDB.dll",
+        "lib/net45/AWSSDK.SimpleDB.pdb",
+        "lib/net45/AWSSDK.SimpleDB.xml",
+        "lib/netstandard1.3/AWSSDK.SimpleDB.dll",
+        "lib/netstandard1.3/AWSSDK.SimpleDB.pdb",
+        "lib/netstandard1.3/AWSSDK.SimpleDB.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SimpleDB.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SimpleDB.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.SimpleDB.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "AWSSDK.EC2 >= 3.3.19",
+      "AWSSDK.S3 >= 3.3.9",
+      "AWSSDK.SimpleDB >= 3.3.0.20"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\conrado.moura\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\conrado.moura\\source\\repos\\AwsConsoleApp1\\AwsConsoleApp1\\AwsConsoleApp1.csproj",
+      "projectName": "AwsConsoleApp1",
+      "projectPath": "C:\\Users\\conrado.moura\\source\\repos\\AwsConsoleApp1\\AwsConsoleApp1\\AwsConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\conrado.moura\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\conrado.moura\\source\\repos\\AwsConsoleApp1\\AwsConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\conrado.moura\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "AWSSDK.EC2": {
+            "target": "Package",
+            "version": "[3.3.19, )"
+          },
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.3.9, )"
+          },
+          "AWSSDK.SimpleDB": {
+            "target": "Package",
+            "version": "[3.3.0.20, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}
